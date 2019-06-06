@@ -5,14 +5,15 @@ int *gbuff_init = NULL;
 int *gbuff;
 
 void testMalloc();
-void swap(int, int);
+//void swap(int, int);
 
 int main()
 {
   int *buffer;
-  int a, b;
-  a = 10;
-  b = 20;
+  //int a, b;
+  //a = 10;
+  //b = 20;
+
   printf("Begin of Program.\n ");
   buffer = (int *)malloc(10 * sizeof(int));
   gbuff_init = buffer;
